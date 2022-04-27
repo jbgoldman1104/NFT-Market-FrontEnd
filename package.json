@@ -1,13 +1,8 @@
+{
   "name": "proton-market",
   "version": "1.1.2",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=development node server.js",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "lint": "eslint --fix .",
-    "format": "prettier --write './**/*.{js,jsx, ts, tsx}' --config ./.prettierrc.js",
-    "typecheck": "$(npm bin)/tsc --noEmit",
     "check:all": "yarn lint && yarn format && yarn typecheck"
   },
   "dependencies": {
