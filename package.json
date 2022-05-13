@@ -8,6 +8,17 @@
     "start": "NODE_ENV=production node server.js",
     "lint": "eslint --fix .",
     "format": "prettier --write './**/*.{js,jsx, ts, tsx}' --config ./.prettierrc.js",
+    "typecheck": "$(npm bin)/tsc --noEmit",
+    "check:all": "yarn lint && yarn format && yarn typecheck"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^1.6.0",
+    "@netlify/plugin-nextjs": "3.2.2",
+    "@proton/js": "^22.0.64",
+    "@proton/web-sdk": "^2.7.23",
+    "dayjs": "^1.10.4",
+    "firebase": "^8.4.3",
+    "form-data": "^4.0.0",
     "multer": "^1.4.2",
     "next": "10.0.6",
     "node-fetch": "^2.6.1",
