@@ -8,3 +8,8 @@
       {
         "ssr": true,
         "displayName": true,
+        "preprocess": true
+      }
+    ]
+  ]
+}
