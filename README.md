@@ -1,4 +1,3 @@
-
 # Proton Marketplace
 
 This application shows the basic functionality of NFTs on the Proton chain through the use of the [Proton Web SDK](https://www.npmjs.com/package/@proton/web-sdk).
