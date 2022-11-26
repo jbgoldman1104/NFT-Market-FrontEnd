@@ -13,16 +13,11 @@
   },
   "dependencies": {
     "@google/model-viewer": "^1.6.0",
-    "simple-react-lightbox": "^3.6.6",
-    "styled-components": "^5.2.1"
-  },
-  "devDependencies": {
-    "@axe-core/react": "^4.1.1",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
-    "@svgr/webpack": "^5.5.0",
-    "@types/cron": "^1.7.2",
+    "@netlify/plugin-nextjs": "3.2.2",
+    "@proton/js": "^22.0.64",
+    "@proton/web-sdk": "^2.7.23",
+    "dayjs": "^1.10.4",
+    "firebase": "^8.4.3",
     "@types/gtag.js": "0.0.4",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.20",
