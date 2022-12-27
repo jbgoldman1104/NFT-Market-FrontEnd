@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 const { createServer } = require('http');
 const { parse } = require('url');
 const next = require('next');
