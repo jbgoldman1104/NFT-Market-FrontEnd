@@ -3,12 +3,6 @@ module.exports = {
     domains: [
       'cloudflare-ipfs.com',
       'gateway.pinata.cloud',
-      'ipfs.io',
-      'bloks.io',
-    ],
-  },
-  target: 'serverless',
-  webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
       issuer: {
